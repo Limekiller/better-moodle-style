@@ -1,0 +1,60 @@
+a {
+    color:#41ade3;
+    transition:all 0.4s ease;
+    text-decoration:none;
+}
+a:hover {
+    color:#1d7fb0;
+    text-decoration:none;
+}
+.coursebox {
+    border:none;
+    margin-bottom:30px;
+    transition:all 0.4s ease;
+}
+.box.generalbox.sitetopic {
+    display:none;   
+}
+.block {
+    border:none;   
+    box-shadow:none;
+}
+.column {
+    margin:5px;   
+}
+.course {
+    padding-left:22px;   
+}
+.date {
+    font-size:12px;   
+}
+.event {
+    margin:10px;
+}
+.event a:nth-child(2) {
+    font-weight:bold;   
+}
+#coursesearch {
+    display: none;   
+}
+
+.loginbox .loginform .form-input {
+    float:none;
+    text-align:center;
+    margin: 0 auto;
+}
+.form-input input {
+    background-color: #f1f1f1;
+    border:none;
+    width:16em;
+    height:2em;
+    margin-bottom:20px;
+}
+.form-label {
+    float:none; 
+    text-align:center;
+    margin: 0 auto;
+}
+.forgetpass {
+    margin-top:30px;   
+}

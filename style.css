@@ -11,31 +11,35 @@ a:hover {
     border:none;
     margin-bottom:30px;
     transition:all 0.4s ease;
+    padding:20px;
+}
+.coursebox:hover {
+    background-color:#f2f2f2 !important;
 }
 .box.generalbox.sitetopic {
-    display:none;   
+    display:none;
 }
 .block {
-    border:none;   
+    border:none;
     box-shadow:none;
 }
 .column {
-    margin:5px;   
+    margin:5px;
 }
 .course {
-    padding-left:22px;   
+    padding-left:22px;
 }
 .date {
-    font-size:12px;   
+    font-size:12px;
 }
 .event {
     margin:10px;
 }
 .event a:nth-child(2) {
-    font-weight:bold;   
+    font-weight:bold;
 }
 #coursesearch {
-    display: none;   
+    display: none;
 }
 
 .loginbox .loginform .form-input {
@@ -51,10 +55,21 @@ a:hover {
     margin-bottom:20px;
 }
 .form-label {
-    float:none; 
+    float:none;
     text-align:center;
     margin: 0 auto;
 }
 .forgetpass {
-    margin-top:30px;   
+    margin-top:30px;
+}
+.jsenabled .block.hidden .content {
+     display:inherit;
+     opacity:0;
+     pointer-events:none;
+     max-height:0px;
+     transition:opacity 0.4s ease, max-height 1s ease;
+}
+.block .content {
+    transition: opacity 0.4s ease, max-height 1s ease;
+    max-height:5000px;
 }

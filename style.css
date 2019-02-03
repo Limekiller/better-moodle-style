@@ -78,3 +78,14 @@ a:hover {
     margin-left:20px;
     margin-top:-20px;
 }
+table.flexible th, .generaltable th, table.flexible td, .generaltable td {
+ 	border:none;
+    transition:background-color 0.4s ease;
+    padding:12px;
+}
+.column-contributiontocoursetotal {
+ 	border-radius:0px 10px 10px 0px;   
+}
+table#explaincaps tbody > tr:nth-child(2n+1) > td, table#defineroletable tbody > tr:nth-child(2n+1) > td, table.grading-report tbody > tr:nth-child(2n+1) > td, table#listdirectories tbody > tr:nth-child(2n+1) > td, table.rolecaps tbody > tr:nth-child(2n+1) > td, table.userenrolment tbody > tr:nth-child(2n+1) > td, table#form tbody > tr:nth-child(2n+1) > td, form#movecourses table tbody > tr:nth-child(2n+1) > td, #page-admin-course-index .editcourse tbody > tr:nth-child(2n+1) > td, .forumheaderlist tbody > tr:nth-child(2n+1) > td, table.flexible tbody > tr:nth-child(2n+1) > td, .generaltable tbody > tr:nth-child(2n+1) > td, table#explaincaps tbody > tr:nth-child(2n+1) > th, table#defineroletable tbody > tr:nth-child(2n+1) > th, table.grading-report tbody > tr:nth-child(2n+1) > th, table#listdirectories tbody > tr:nth-child(2n+1) > th, table.rolecaps tbody > tr:nth-child(2n+1) > th, table.userenrolment tbody > tr:nth-child(2n+1) > th, table#form tbody > tr:nth-child(2n+1) > th, form#movecourses table tbody > tr:nth-child(2n+1) > th, #page-admin-course-index .editcourse tbody > tr:nth-child(2n+1) > th, .forumheaderlist tbody > tr:nth-child(2n+1) > th, table.flexible tbody > tr:nth-child(2n+1) > th, .generaltable tbody > tr:nth-child(2n+1) > th {
+ 	transition:background-color 0.4s ease;   
+}

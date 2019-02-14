@@ -41,21 +41,25 @@ a:hover {
 #coursesearch {
     display: none;
 }
-
+.loginbox .loginform {
+ 	text-align:center;   
+}
 .loginbox .loginform .form-input {
     float:none;
-    text-align:center;
     margin: 0 auto;
 }
 .form-input input {
     background-color: #f1f1f1;
     border:none;
-    width:16em;
     height:2em;
     margin-bottom:20px;
 }
-.form-label {
-    float:none;
+.loginbox .loginform .form-input input {
+        width:16em;
+}
+.loginbox .loginform .form-label {
+    float:left;
+    width:100%;
     text-align:center;
     margin: 0 auto;
 }
@@ -102,4 +106,16 @@ table#explaincaps tbody > tr:nth-child(2n+1) > td, table#defineroletable tbody >
 }
 .course-content .current .content {
     background-color:#d9edf7 !important;
+}
+table.flexible th, .generaltable th, table.flexible td, .generaltable td {
+ 	border:none;   
+}
+.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover {
+ 	background-image:none;
+    background-color:#41ade3;
+}
+.moodle-actionmenu[data-enhanced].show .menu {
+ 	border:none;
+    opacity: 1;
+    pointer-events: all;
 }

@@ -119,3 +119,30 @@ table.flexible th, .generaltable th, table.flexible td, .generaltable td {
     opacity: 1;
     pointer-events: all;
 }
+#page-login-index {
+    background-image:url('https://www.goshen.edu/wp-content/uploads/2014/07/gc.fall_.2014.321_2-e1416922763939.jpg');
+    background-size:cover;
+    color:white;
+}
+#page-login-index #page-footer {
+    display:none;   
+}
+#page-login-index .breadcrumb-nav {
+    display:none;   
+}
+#page-login-index .page-header-headings {
+       color:rgba(0,0,0,0);
+        background-image:url('https://www.goshen.edu/wp-content/themes/timber-gc/media/svg/gclgo_lnd_wht.svg');
+        background-repeat:no-repeat;
+        height:60px;
+        width:300px;
+        margin:0 auto;
+}
+.loginpanel {
+    background-color:white;
+    max-width:450px;
+    border-radius:15px;
+    margin:0 auto;
+    color:#333;
+    margin-top:15vh;
+}
